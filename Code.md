@@ -59,7 +59,9 @@ void loop() {
       Particle.publish("Sun_Status", "Terrarium got 2 hour of sunlight");
   }
   
-  delay(60000); // Wait for 1 minute before publishing data again
+  delay(45000); // Wait for 45 second before publishing data again
+  
+  // In total every 1 minute there will be new data
 }
 
 ```
